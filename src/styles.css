@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+/* Select the scrollbar track */
+::-webkit-scrollbar-track {
+  /* Change the background color */
+  background-color: #e72626;
+}
+
+/* Select the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  /* Change the background color */
+  background-color: rgb(188, 47, 47);
+
+  /* Change the size of the thumb */
+  height: 20px;
+  width: 10px;
+}
